@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pyc
+my secret api key.txt
+day 1 key .txt
