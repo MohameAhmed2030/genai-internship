@@ -1,0 +1,161 @@
+AI Writing Examiner Project
+(IELTS / YKI Style Evaluation System)
+1. Project Vision
+Build an AI-powered system that evaluates student exam performance similar to official language exams such as IELTS and YKI.
+
+The system will eventually assess four skills:
+
+Writing
+
+Speaking
+
+Reading
+
+Listening
+
+Initial focus: Writing Evaluation (MVP – Minimum Viable Product)
+
+2. Why This Idea Is Strong
+Language exams are expensive.
+
+Students need practice before official exams.
+
+Instant AI feedback saves time and money.
+
+High global demand.
+
+Strong portfolio or startup potential.
+
+3. Development Phases
+Phase 1 – Writing Evaluator (MVP)
+Focus only on writing.
+
+Features:
+
+Student pastes essay.
+
+AI evaluates based on official rubric.
+
+Output includes:
+
+Estimated band score (0–9)
+
+Section breakdown
+
+Detailed feedback
+
+Improvement suggestions
+
+Optional improved version
+
+Estimated Time:
+2–3 weeks (1–2 hours daily)
+
+Phase 2 – Web Application Version
+Add:
+
+Web interface
+
+Score visualization
+
+Essay saving
+
+Progress tracking
+
+User accounts
+
+Estimated Time:
+1–2 months
+
+Phase 3 – Full Multi-Skill System
+Add:
+
+Speaking (audio → transcription → evaluation)
+
+Reading (automatic scoring logic)
+
+Listening (audio + answer validation)
+
+Exam simulation mode
+
+Estimated Time:
+3–6 months
+
+4. Technical Stack
+Current tools:
+
+Python
+
+OpenAI API
+
+Prompt engineering
+
+Structured responses
+
+Future additions:
+
+FastAPI or Flask (backend)
+
+Basic frontend (HTML/CSS/JS)
+
+Database
+
+Cloud deployment
+
+5. Team Structure (Mohamed & Ahmed)
+Option 1:
+
+Mohamed: Prompt design, rubric research, scoring logic.
+
+Ahmed: Code structure, memory handling, architecture.
+
+Then rotate roles to learn both sides.
+
+6. Timeline Summary
+Writing MVP: 2–3 weeks
+Web version: 1–2 months
+Full system: 3–6 months
+
+Recommended path:
+Build Writing MVP → Polish → Convert to Web App.
+
+7. Project Purpose (Learning Mode)
+Since this is a learning-focused project:
+
+Goals:
+
+Deep understanding
+
+Clean system design
+
+Prompt engineering mastery
+
+AI evaluation logic
+
+Real-world system thinking
+
+8. Important Reality
+AI cannot perfectly replicate official IELTS/YKI grading.
+
+However, it can:
+
+Provide strong feedback
+
+Estimate band levels
+
+Help students improve significantly
+
+That is already valuable.
+
+9. Final Goal
+Build:
+
+“AI Writing Examiner v1”
+
+A system that:
+
+Simulates exam grading
+
+Provides structured feedback
+
+Demonstrates real AI engineering capability

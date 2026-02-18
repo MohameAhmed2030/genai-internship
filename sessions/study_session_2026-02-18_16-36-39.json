@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-02-18T16:27:32",
+  "items": [
+    {
+      "type": "quiz_take",
+      "topic": "Finland nature",
+      "score": "1/3",
+      "quiz": {
+        "questions": [
+          {
+            "q": "What is the largest national park in Finland?",
+            "answer": "Oulanka National Park"
+          },
+          {
+            "q": "What body of water separates Finland from Sweden to the west?",
+            "answer": "Gulf of Bothnia"
+          },
+          {
+            "q": "Which natural phenomenon can often be seen in Finland during winter months?",
+            "answer": "Aurora Borealis"
+          }
+        ]
+      }
+    }
+  ]
+}

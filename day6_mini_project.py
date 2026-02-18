@@ -1,54 +1,114 @@
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI()
 
-def read_file(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+# ----------------------------
+# 1️⃣ Read File
+# ----------------------------
+def read_file(file_path):
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            return file.read()
+    except FileNotFoundError:
+        print("❌ File not found. Please try again.")
+        return None
 
-def ask_ai(task: str, text: str) -> str:
+
+# ----------------------------
+# 2️⃣ Show Menu
+# ----------------------------
+def get_user_choice():
+    print("\nChoose what you want the AI to do:")
+    print("1 - Summarize")
+    print("2 - Extract key points")
+    print("3 - Analyze tone")
+    print("4 - Custom task")
+
+    return input("Enter your choice (1-4): ")
+
+
+# ----------------------------
+# 3️⃣ Build Prompt
+# ----------------------------
+def build_prompt(choice, text):
+
+    if choice == "1":
+        return "Summarize the following text:", text
+
+    elif choice == "2":
+        return "Extract the key points from the following text:", text
+
+    elif choice == "3":
+        return "Analyze the tone of the following text:", text
+
+    elif choice == "4":
+        custom = input("Enter your custom instruction: ")
+        return custom, text
+
+    else:
+        print("Invalid choice.")
+        return None, None
+
+
+# ----------------------------
+# 4️⃣ Ask AI
+# ----------------------------
+def ask_ai(system_instruction, user_text):
+
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that works with documents."},
-            {"role": "user", "content": f"{task}\n\nTEXT:\n{text}"}
-        ],
-        max_tokens=250
+            {"role": "system", "content": system_instruction},
+            {"role": "user", "content": user_text}
+        ]
     )
+
     return response.choices[0].message.content
 
-print("📄 Day 6 Mini Project – Document Tool")
-file_path = input("Enter text file name (example: notes.txt): ").strip()
 
-text = read_file(file_path)
+# ----------------------------
+# 5️⃣ Save Output
+# ----------------------------
+def save_output(result):
 
-print("\nChoose an action:")
-print("1 - Summarize")
-print("2 - Extract key points")
-print("3 - Rewrite in simple language")
-print("4 - Translate to swedish")
-print("5 - Is it written b human or AI")
+    if not os.path.exists("outputs"):
+        os.makedirs("outputs")
 
-choice = input("Your choice: ").strip()
-
-if choice == "1":
-    task = "Summarize this document."
-elif choice == "2":
-    task = "Extract 5 key bullet points from this document."
-elif choice == "3":
-    task = "Rewrite this document in very simple language."
-elif choice == "4":
-    task = "Translate to swedish."
-elif choice == "5":
-    task = "Check if this text is written by human or AI."
+    with open("outputs/result.txt", "a", encoding="utf-8") as file:
+        file.write(result)
+        file.write("\n\n------------------\n\n")
 
 
+# ----------------------------
+# 6️⃣ Main Function
+# ----------------------------
+def main():
 
-else:
-    print("Invalid choice")
-    exit()
+    file_path = input("Enter file name (example: notes.txt): ")
+    text = read_file(file_path)
 
-result = ask_ai(task, text)
-print("\n=== AI OUTPUT ===\n")
-print(result)
+    if text is None:
+        return
+
+    choice = get_user_choice()
+    system_instruction, user_text = build_prompt(choice, text)
+
+    if system_instruction is None:
+        return
+
+    print("\n⏳ Processing...\n")
+
+    result = ask_ai(system_instruction, user_text)
+
+    print("\n✅ Result:\n")
+    print(result)
+
+    save_output(result)
+
+
+# ----------------------------
+# Run Program
+# ----------------------------
+if __name__ == "__main__":
+    main()

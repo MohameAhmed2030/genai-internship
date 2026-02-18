@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-02-18T15:45:12",
+  "items": [
+    {
+      "type": "flashcards_practice",
+      "topic": "Stockholm airports",
+      "count": 2,
+      "score": "1/2",
+      "raw_output": "Q1: What are the main airports serving Stockholm?  \nA1: Arlanda Airport (ARN) and Bromma Airport (BMA).  \n\nQ2: Which Stockholm airport is the largest?  \nA2: Arlanda Airport (ARN)."
+    },
+    {
+      "type": "explain",
+      "topic": "Egyptian Pyramids",
+      "level": "b",
+      "output": "**Egyptian Pyramids**\n\nThe Egyptian pyramids are some of the most famous and impressive structures from ancient Egypt. They were built as tombs for pharaohs, who were the kings of Egypt. The pyramids served as monumental burial sites and were designed to help the pharaohs in the afterlife.\n\n**Example: The Great Pyramid of Giza**\nOne of the most well-known pyramids is the Great Pyramid of Giza, built for Pharaoh Khufu (also known as Cheops) around 2580-2560 BC. It is the largest of the three pyramids on the Giza plateau and was originally 146.6 meters (481 feet) tall. The Great Pyramid was one of the Seven Wonders of the Ancient World and is the only one that still exists today.\n\n### Quick Check Questions:\n1. What was the primary purpose of the Egyptian pyramids?\n2. Who was the Pharaoh associated with the Great Pyramid of Giza?\n3. How tall was the Great Pyramid of Giza when it was first completed?"
+    },
+    {
+      "type": "flashcards_practice",
+      "topic": "Shopify",
+      "count": 3,
+      "score": "3/3",
+      "raw_output": "Q1: What is Shopify?  \nA1: Shopify is a commerce platform that allows businesses to create online stores.  \n\nQ2: When was Shopify founded?  \nA2: Shopify was founded in 2006.  \n\nQ3: What is Shopify's primary function?  \nA3: Shopify's primary function is to enable merchants to sell products online, in-person, and across multiple channels."
+    }
+  ]
+}
