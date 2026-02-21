@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-02-20T17:05:07",
+  "topic": "Business",
+  "mode": "3",
+  "time_limit_minutes": 3,
+  "score": "0/1",
+  "skill_breakdown": {
+    "examples": {
+      "correct": 1,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "q": "Discuss the importance of corporate social responsibility (CSR) in modern business practices. Provide examples of companies that have successfully implemented CSR initiatives.",
+      "type": "essay",
+      "skill": "examples",
+      "user_answer": "Washington said it granted tariff exemptions on some Indonesian goods, including certain clothing and textiles that are produced with cotton and man-made materials from the US.",
+      "correct_answer": "Corporate social responsibility (CSR) is crucial in modern business as it enhances a company's reputation, increases customer loyalty, and can lead to better financial performance. For example, companies like Patagonia focus on environmental sustainability, which resonates well with their customers. Similarly, Ben & Jerry's emphasizes social justice, successfully integrating these values into their brand. These initiatives not only contribute positively to society but also differentiate these companies in a competitive market.",
+      "correct": true,
+      "essay_evaluation": {
+        "band_score": 0,
+        "task_response": 0,
+        "coherence": 0,
+        "lexical_resource": 0,
+        "grammar": 0,
+        "feedback": "The essay does not address the prompt regarding the importance of corporate social responsibility (CSR) in modern business practices, nor does it provide examples of companies that have successfully implemented CSR initiatives. The content is irrelevant to the topic, resulting in a complete lack of task fulfillment."
+      }
+    }
+  ]
+}

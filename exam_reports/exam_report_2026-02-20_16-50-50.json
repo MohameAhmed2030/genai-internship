@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-02-20T16:50:50",
+  "topic": "6th grade english language",
+  "mode": "2",
+  "time_limit_minutes": 5,
+  "score": "1/10",
+  "skill_breakdown": {
+    "concepts": {
+      "correct": 1,
+      "total": 4
+    },
+    "definitions": {
+      "correct": 0,
+      "total": 4
+    },
+    "examples": {
+      "correct": 0,
+      "total": 1
+    },
+    "problem_solving": {
+      "correct": 0,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "q": "What is the main idea of a text?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "",
+      "correct_answer": "B",
+      "correct": false
+    },
+    {
+      "q": "Which of the following words is an antonym of 'happy'?",
+      "type": "mcq",
+      "skill": "definitions",
+      "user_answer": "A",
+      "correct_answer": "B",
+      "correct": false
+    },
+    {
+      "q": "Which sentence is in the past tense?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "CC",
+      "correct_answer": "C",
+      "correct": false
+    },
+    {
+      "q": "What is a simile?",
+      "type": "mcq",
+      "skill": "definitions",
+      "user_answer": "D",
+      "correct_answer": "A",
+      "correct": false
+    },
+    {
+      "q": "Which of the following is a complex sentence?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "c",
+      "correct_answer": "C",
+      "correct": true
+    },
+    {
+      "q": "What is a noun?",
+      "type": "short",
+      "skill": "definitions",
+      "user_answer": "skip",
+      "correct_answer": "A word that names a person, place, thing, or idea.",
+      "correct": false
+    },
+    {
+      "q": "Give an example of a metaphor.",
+      "type": "short",
+      "skill": "examples",
+      "user_answer": "skip",
+      "correct_answer": "Time is a thief.",
+      "correct": false
+    },
+    {
+      "q": "What does 'protagonist' mean?",
+      "type": "short",
+      "skill": "definitions",
+      "user_answer": "skip",
+      "correct_answer": "The main character in a story.",
+      "correct": false
+    },
+    {
+      "q": "What is the purpose of punctuation in writing?",
+      "type": "short",
+      "skill": "concepts",
+      "user_answer": "to correct identation mistakes",
+      "correct_answer": "To clarify meaning and indicate pauses.",
+      "correct": false
+    },
+    {
+      "q": "Write a short essay explaining the importance of reading regularly.",
+      "type": "essay",
+      "skill": "problem_solving",
+      "user_answer": "skip",
+      "correct_answer": "",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "role": "user",
+    "content": "who is donald trump ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Donald John Trump is an American Republican politician who has been the 47th and current President of the United States since 2025. He also served as the 45th President from 2017 to 2021. Politically, he is primarily a right-wing conservative and populist."
+  },
+  {
+    "role": "user",
+    "content": "what chat style i did before ?"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't know."
+  },
+  {
+    "role": "user",
+    "content": "do you remember my question ?"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't know."
+  },
+  {
+    "role": "user",
+    "content": "clear"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't know."
+  },
+  {
+    "role": "user",
+    "content": "how many times donald trump elected ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Donald Trump has been elected as President of the United States twice. He served as the 45th President from 2017 to 2021 and is currently serving as the 47th President since 2025."
+  },
+  {
+    "role": "user",
+    "content": "who is donald trump ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Donald John Trump is an American Republican politician who has been the 47th and current President of the United States since 2025. He also served as the 45th President from 2017 to 2021. Politically, he is primarily a right-wing conservative and populist."
+  },
+  {
+    "role": "user",
+    "content": "how many times donald trump elected ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Donald Trump has been elected as President of the United States twice. He served as the 45th President from 2017 to 2021 and is currently serving as the 47th President since 2025."
+  },
+  {
+    "role": "user",
+    "content": "what chat style i did before ?"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't know."
+  }
+]

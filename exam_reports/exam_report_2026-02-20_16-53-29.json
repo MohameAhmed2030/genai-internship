@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-02-20T16:53:29",
+  "topic": "Yki Test swedish",
+  "mode": "1",
+  "time_limit_minutes": 3,
+  "score": "6/10",
+  "skill_breakdown": {
+    "concepts": {
+      "correct": 5,
+      "total": 5
+    },
+    "examples": {
+      "correct": 1,
+      "total": 1
+    },
+    "definitions": {
+      "correct": 0,
+      "total": 3
+    },
+    "problem_solving": {
+      "correct": 0,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "q": "What is the primary purpose of the Yki Test?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "A",
+      "correct_answer": "A",
+      "correct": true
+    },
+    {
+      "q": "Which component is NOT part of the Yki Test?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "D",
+      "correct_answer": "D",
+      "correct": true
+    },
+    {
+      "q": "Which level of proficiency does the Yki Test assess?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "correct": true
+    },
+    {
+      "q": "What type of tasks are included in the written section of the Yki Test?",
+      "type": "mcq",
+      "skill": "examples",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "correct": true
+    },
+    {
+      "q": "How long does the Yki Test typically take to complete?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "correct": true
+    },
+    {
+      "q": "What is the passing score for the Yki Test?",
+      "type": "mcq",
+      "skill": "definitions",
+      "user_answer": "B",
+      "correct_answer": "C",
+      "correct": false
+    },
+    {
+      "q": "What type of language skill does the listening section test?",
+      "type": "mcq",
+      "skill": "concepts",
+      "user_answer": "B",
+      "correct_answer": "B",
+      "correct": true
+    },
+    {
+      "q": "What are the two main categories assessed in the Yki Test?",
+      "type": "short",
+      "skill": "definitions",
+      "user_answer": "Speaking and Writting",
+      "correct_answer": "Language comprehension and communication",
+      "correct": false
+    },
+    {
+      "q": "What is the official language of the Yki Test?",
+      "type": "short",
+      "skill": "definitions",
+      "user_answer": "Finnish",
+      "correct_answer": "Swedish",
+      "correct": false
+    },
+    {
+      "q": "Discuss the importance of the Yki Test for immigrants in Sweden and how it affects their integration into Swedish society.",
+      "type": "essay",
+      "skill": "problem_solving",
+      "user_answer": "skip",
+      "correct_answer": "",
+      "correct": false
+    }
+  ]
+}
